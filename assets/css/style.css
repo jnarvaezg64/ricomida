@@ -1,0 +1,212 @@
+html {
+    font-size: 14px;
+}
+
+.barra {
+    margin-bottom: 10px;
+}
+
+.img-principal {
+    padding: 10px;
+}
+
+.titulo {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 37px;
+    color: #ffffff;
+}
+
+.titulo2 {
+    margin-top: 40px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo4 {
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo5 {
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 16px;
+    text-align: center;
+}
+
+.receta {
+    padding: 10px;
+}
+
+.preparacion, .ingredientes {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+.subtitulo2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.newsletter {
+    background-color: #DC3545;
+}
+
+.footer {
+    font-family: 'Lobster', cursive;
+    background-color: #373A3C;
+    height: 127px;
+    text-align: center;
+}
+
+.carousel .carousel-indicators li {  
+    height: 15px!important;
+    width: 15px!important;
+    border-radius: 50%;
+    background-color: #373A3C31; 
+}
+.carousel .carousel-indicators li.active { 
+    background-color: #373A3C; 
+}
+
+@media(min-width: 320px) {
+    .titulo2 {
+        margin-top: 0px;
+        font-size: 25px;
+
+        text-align: center;
+        padding: 5px;
+    }
+    .botones{
+        text-align: center;
+    }
+    .receta{
+        margin-top: 0px;
+    }
+    .titulo4 {
+        font-size: 30px;
+    }
+    
+    .titulo5 {
+        font-size: 20px;
+    }
+    #carouselExampleIndicators{
+        margin-top:  0px;
+        padding: 0px;
+    }
+}
+
+@media(min-width: 576px) {
+    .receta {
+        margin-top: 20px;
+    }
+
+    .titulo2 {
+        font-size: 15px;
+
+        text-align: center;
+        padding: 5px;
+    }
+
+    .subtitulo {
+        font-size: 15px;
+    }
+    .secc-pizza{
+        margin-top: 50px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+
+    .botones {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+@media(min-width: 768px) {
+    .titulo2 {
+        margin-top: 20px;
+        font-size: 20px;
+
+        text-align: center;
+        padding: 5px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+    .botones{
+        text-align: center;
+    }
+    #carouselExampleIndicators{
+        margin-top: 20px;
+    }
+}
+@media(min-width: 992px) {
+    .titulo2 {
+        margin-top: 80px;
+        font-size: 30px;
+
+        text-align: center;
+        padding: 5px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+    .botones{
+        text-align: center;
+    }
+    .btn {
+        font-size: 16px;
+    }
+}
+@media(min-width: 1200px) {
+    .titulo2 {
+        margin-top: 60px;
+        font-size: 40px;
+
+        text-align: center;
+        padding: 5px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+    .botones{
+        text-align: center;
+    }
+    .btn {
+        font-size: 16px;
+    }
+}
